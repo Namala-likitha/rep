@@ -1,5 +1,5 @@
-- dashboard: filtervaluerepro
-  title: Filtervalue-repro
+- dashboard: filter_value_repro
+  title: filter_value_repro
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''

@@ -33,7 +33,7 @@ view: orders {
   dimension: event_id_title {
     type: string
     label: "Event ID title"
-    sql: concat(${id}, '-', ${status}) ;;
+    sql: concat(${id}, ' - ', ${status}) ;;
   }
 
   dimension: user_id {

@@ -52,6 +52,12 @@ view: order_items {
     sql: ${TABLE}.sale_price ;;
   }
 
+  dimension: video {
+    type: string
+    sql: 'https://www.w3schools.com/html/mov_bbb.mp4' ;;
+    html: <video width="290" height="130" controls preload="none"> <controls> <source src="{{ value }}" type="video/mp4"> </video> ;;
+  }
+
   # A measure is a field that uses a SQL aggregate function. Here are defined sum and average
   # measures for this dimension, but you can also add measures of many different aggregates.
   # Click on the type parameter to see all the options in the Quick Help panel on the right.
